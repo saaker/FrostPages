@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: `SAA - FrostPages`,
     description: `Seriously Doe`,
-    author: `Billy Jacoby`,
+    author: `SAA`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,11 +26,9 @@ module.exports = {
         background_color: `#20232a`,
         theme_color: `#20232a`,
         display: `minimal-ui`,
-	icon: `${__dirname}/src/images/gatsby-icon.png`,
+	      icon: `${__dirname}/src/images/gatsby-icon.png`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
