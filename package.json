@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/saaker/FrostPages"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/saaker/FrostPages/issues"
   },
-  "homepage": "https://billyjacoby.github.io/gatsby-react-bootstrap-starter/"
+  "homepage": "https://saaker.github.io/FrostPages/"
 }
