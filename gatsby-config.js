@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/FrostPages",
   siteMetadata: {
     title: `SAA - FrostPages`,
-    description: `Seriously Doe`,
+    description: `Seriously Doe.`,
     author: `SAA`,
   },
   plugins: [
