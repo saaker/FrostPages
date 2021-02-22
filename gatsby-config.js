@@ -2,8 +2,8 @@ module.exports = {
   pathPrefix: "/FrostPages",
   siteMetadata: {
     title: `SAA - FrostPages`,
-    description: `Seriously Doe`,
-    author: `Billy Jacoby`,
+    description: `Seriously Doe.`,
+    author: `SAA`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,8 +29,6 @@ module.exports = {
 	icon: `${__dirname}/src/images/gatsby-icon.png`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
