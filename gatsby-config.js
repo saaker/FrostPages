@@ -1,8 +1,8 @@
 module.exports = {
-  pathPrefix: "/gatsby-react-bootstrap-starter",
+  pathPrefix: "/FrostPages",
   siteMetadata: {
-    title: `Gatsby React Bootstrap Starter`,
-    description: `A starter that includes react-bootstrap and react-icons, along with SASS compilation.`,
+    title: `SAA - FrostPages`,
+    description: `Seriously Doe`,
     author: `Billy Jacoby`,
   },
   plugins: [
@@ -11,7 +11,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/images/`,
       },
     },
     `gatsby-plugin-sass`,
@@ -26,6 +26,7 @@ module.exports = {
         background_color: `#20232a`,
         theme_color: `#20232a`,
         display: `minimal-ui`,
+	icon: `${__dirname}/src/images/gatsby-icon.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
